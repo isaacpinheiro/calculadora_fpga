@@ -1,0 +1,247 @@
+Simulator report for bcd7seg
+Wed Aug 15 02:38:44 2018
+Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Simulator Summary
+  3. Simulator Settings
+  4. Simulation Waveforms
+  5. Coverage Summary
+  6. Complete 1/0-Value Coverage
+  7. Missing 1-Value Coverage
+  8. Missing 0-Value Coverage
+  9. Simulator INI Usage
+ 10. Simulator Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++--------------------------------------------+
+; Simulator Summary                          ;
++-----------------------------+--------------+
+; Type                        ; Value        ;
++-----------------------------+--------------+
+; Simulation Start Time       ; 0 ps         ;
+; Simulation End Time         ; 1.0 us       ;
+; Simulation Netlist Size     ; 87 nodes     ;
+; Simulation Coverage         ;     100.00 % ;
+; Total Number of Transitions ; 418          ;
+; Simulation Breakpoints      ; 0            ;
+; Family                      ; Cyclone II   ;
++-----------------------------+--------------+
+
+
++------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Simulator Settings                                                                                                                                                     ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------------+---------------+
+; Option                                                                                     ; Setting                                                   ; Default Value ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------------+---------------+
+; Simulation mode                                                                            ; Functional                                                ; Timing        ;
+; Start time                                                                                 ; 0 ns                                                      ; 0 ns          ;
+; Simulation results format                                                                  ; VWF                                                       ;               ;
+; Vector input source                                                                        ; /home/isaac/projects/calculadora_fpga/bcd7seg/bcd7seg.vwf ;               ;
+; Add pins automatically to simulation output waveforms                                      ; On                                                        ; On            ;
+; Check outputs                                                                              ; Off                                                       ; Off           ;
+; Report simulation coverage                                                                 ; On                                                        ; On            ;
+; Display complete 1/0 value coverage report                                                 ; On                                                        ; On            ;
+; Display missing 1-value coverage report                                                    ; On                                                        ; On            ;
+; Display missing 0-value coverage report                                                    ; On                                                        ; On            ;
+; Detect setup and hold time violations                                                      ; Off                                                       ; Off           ;
+; Detect glitches                                                                            ; Off                                                       ; Off           ;
+; Disable timing delays in Timing Simulation                                                 ; Off                                                       ; Off           ;
+; Generate Signal Activity File                                                              ; Off                                                       ; Off           ;
+; Generate VCD File for PowerPlay Power Analyzer                                             ; Off                                                       ; Off           ;
+; Group bus channels in simulation results                                                   ; Off                                                       ; Off           ;
+; Preserve fewer signal transitions to reduce memory requirements                            ; On                                                        ; On            ;
+; Trigger vector comparison with the specified mode                                          ; INPUT_EDGE                                                ; INPUT_EDGE    ;
+; Disable setup and hold time violations detection in input registers of bi-directional pins ; Off                                                       ; Off           ;
+; Overwrite Waveform Inputs With Simulation Outputs                                          ; Off                                                       ;               ;
+; Perform Glitch Filtering in Timing Simulation                                              ; Auto                                                      ; Auto          ;
++--------------------------------------------------------------------------------------------+-----------------------------------------------------------+---------------+
+
+
++----------------------+
+; Simulation Waveforms ;
++----------------------+
+Waveform report data cannot be output to ASCII.
+Please use Quartus II 32-bit to view the waveform report data.
+
+
++--------------------------------------------------------------------+
+; Coverage Summary                                                   ;
++-----------------------------------------------------+--------------+
+; Type                                                ; Value        ;
++-----------------------------------------------------+--------------+
+; Total coverage as a percentage                      ;     100.00 % ;
+; Total nodes checked                                 ; 87           ;
+; Total output ports checked                          ; 87           ;
+; Total output ports with complete 1/0-value coverage ; 87           ;
+; Total output ports with no 1/0-value coverage       ; 0            ;
+; Total output ports with no 1-value coverage         ; 0            ;
+; Total output ports with no 0-value coverage         ; 0            ;
++-----------------------------------------------------+--------------+
+
+
+The following table displays output ports that toggle between 1 and 0 during simulation.
++--------------------------------------------------------------------------+
+; Complete 1/0-Value Coverage                                              ;
++---------------------------+---------------------------+------------------+
+; Node Name                 ; Output Port Name          ; Output Port Type ;
++---------------------------+---------------------------+------------------+
+; |bcd7seg|display[0]~0     ; |bcd7seg|display[0]~0     ; out              ;
+; |bcd7seg|display[0]~1     ; |bcd7seg|display[0]~1     ; out              ;
+; |bcd7seg|comb~0           ; |bcd7seg|comb~0           ; out0             ;
+; |bcd7seg|display[6]~2     ; |bcd7seg|display[6]~2     ; out0             ;
+; |bcd7seg|display[0]~3     ; |bcd7seg|display[0]~3     ; out              ;
+; |bcd7seg|comb~1           ; |bcd7seg|comb~1           ; out0             ;
+; |bcd7seg|display[6]~4     ; |bcd7seg|display[6]~4     ; out0             ;
+; |bcd7seg|display[0]$latch ; |bcd7seg|display[0]$latch ; out              ;
+; |bcd7seg|display[2]~5     ; |bcd7seg|display[2]~5     ; out              ;
+; |bcd7seg|display[6]~6     ; |bcd7seg|display[6]~6     ; out0             ;
+; |bcd7seg|comb~2           ; |bcd7seg|comb~2           ; out0             ;
+; |bcd7seg|display[3]~7     ; |bcd7seg|display[3]~7     ; out              ;
+; |bcd7seg|display[2]~8     ; |bcd7seg|display[2]~8     ; out              ;
+; |bcd7seg|display[1]$latch ; |bcd7seg|display[1]$latch ; out              ;
+; |bcd7seg|display[6]~9     ; |bcd7seg|display[6]~9     ; out0             ;
+; |bcd7seg|display[5]~10    ; |bcd7seg|display[5]~10    ; out              ;
+; |bcd7seg|display[3]~11    ; |bcd7seg|display[3]~11    ; out              ;
+; |bcd7seg|display[2]~12    ; |bcd7seg|display[2]~12    ; out              ;
+; |bcd7seg|comb~3           ; |bcd7seg|comb~3           ; out0             ;
+; |bcd7seg|display[6]~13    ; |bcd7seg|display[6]~13    ; out0             ;
+; |bcd7seg|display[2]$latch ; |bcd7seg|display[2]$latch ; out              ;
+; |bcd7seg|display[5]~14    ; |bcd7seg|display[5]~14    ; out              ;
+; |bcd7seg|display[3]~15    ; |bcd7seg|display[3]~15    ; out              ;
+; |bcd7seg|display[2]~16    ; |bcd7seg|display[2]~16    ; out              ;
+; |bcd7seg|display[1]~17    ; |bcd7seg|display[1]~17    ; out              ;
+; |bcd7seg|display[6]~18    ; |bcd7seg|display[6]~18    ; out0             ;
+; |bcd7seg|display[0]~19    ; |bcd7seg|display[0]~19    ; out              ;
+; |bcd7seg|comb~4           ; |bcd7seg|comb~4           ; out0             ;
+; |bcd7seg|display[1]~20    ; |bcd7seg|display[1]~20    ; out              ;
+; |bcd7seg|display[1]~21    ; |bcd7seg|display[1]~21    ; out              ;
+; |bcd7seg|display[1]~22    ; |bcd7seg|display[1]~22    ; out              ;
+; |bcd7seg|display[1]~23    ; |bcd7seg|display[1]~23    ; out              ;
+; |bcd7seg|comb~5           ; |bcd7seg|comb~5           ; out0             ;
+; |bcd7seg|display[2]~24    ; |bcd7seg|display[2]~24    ; out              ;
+; |bcd7seg|display[2]~25    ; |bcd7seg|display[2]~25    ; out              ;
+; |bcd7seg|display[2]~26    ; |bcd7seg|display[2]~26    ; out              ;
+; |bcd7seg|display[2]~27    ; |bcd7seg|display[2]~27    ; out              ;
+; |bcd7seg|comb~6           ; |bcd7seg|comb~6           ; out0             ;
+; |bcd7seg|display[3]~28    ; |bcd7seg|display[3]~28    ; out              ;
+; |bcd7seg|display[3]~29    ; |bcd7seg|display[3]~29    ; out              ;
+; |bcd7seg|display[3]~30    ; |bcd7seg|display[3]~30    ; out              ;
+; |bcd7seg|display[3]~31    ; |bcd7seg|display[3]~31    ; out              ;
+; |bcd7seg|comb~7           ; |bcd7seg|comb~7           ; out0             ;
+; |bcd7seg|display[4]~32    ; |bcd7seg|display[4]~32    ; out              ;
+; |bcd7seg|display[4]~33    ; |bcd7seg|display[4]~33    ; out              ;
+; |bcd7seg|comb~8           ; |bcd7seg|comb~8           ; out0             ;
+; |bcd7seg|display[5]~34    ; |bcd7seg|display[5]~34    ; out              ;
+; |bcd7seg|display[5]~35    ; |bcd7seg|display[5]~35    ; out              ;
+; |bcd7seg|display[5]~36    ; |bcd7seg|display[5]~36    ; out              ;
+; |bcd7seg|display[5]~37    ; |bcd7seg|display[5]~37    ; out              ;
+; |bcd7seg|comb~9           ; |bcd7seg|comb~9           ; out0             ;
+; |bcd7seg|display[6]~38    ; |bcd7seg|display[6]~38    ; out              ;
+; |bcd7seg|display[6]~39    ; |bcd7seg|display[6]~39    ; out0             ;
+; |bcd7seg|display[6]~40    ; |bcd7seg|display[6]~40    ; out              ;
+; |bcd7seg|display[6]~41    ; |bcd7seg|display[6]~41    ; out0             ;
+; |bcd7seg|display[6]~42    ; |bcd7seg|display[6]~42    ; out              ;
+; |bcd7seg|display[6]~43    ; |bcd7seg|display[6]~43    ; out0             ;
+; |bcd7seg|display[6]~44    ; |bcd7seg|display[6]~44    ; out              ;
+; |bcd7seg|comb~10          ; |bcd7seg|comb~10          ; out0             ;
+; |bcd7seg|display[3]$latch ; |bcd7seg|display[3]$latch ; out              ;
+; |bcd7seg|comb~11          ; |bcd7seg|comb~11          ; out0             ;
+; |bcd7seg|display[4]$latch ; |bcd7seg|display[4]$latch ; out              ;
+; |bcd7seg|comb~12          ; |bcd7seg|comb~12          ; out0             ;
+; |bcd7seg|display[5]$latch ; |bcd7seg|display[5]$latch ; out              ;
+; |bcd7seg|comb~13          ; |bcd7seg|comb~13          ; out0             ;
+; |bcd7seg|display[6]$latch ; |bcd7seg|display[6]$latch ; out              ;
+; |bcd7seg|bcd[0]           ; |bcd7seg|bcd[0]           ; out              ;
+; |bcd7seg|bcd[1]           ; |bcd7seg|bcd[1]           ; out              ;
+; |bcd7seg|bcd[2]           ; |bcd7seg|bcd[2]           ; out              ;
+; |bcd7seg|bcd[3]           ; |bcd7seg|bcd[3]           ; out              ;
+; |bcd7seg|display[0]       ; |bcd7seg|display[0]       ; pin_out          ;
+; |bcd7seg|display[1]       ; |bcd7seg|display[1]       ; pin_out          ;
+; |bcd7seg|display[2]       ; |bcd7seg|display[2]       ; pin_out          ;
+; |bcd7seg|display[3]       ; |bcd7seg|display[3]       ; pin_out          ;
+; |bcd7seg|display[4]       ; |bcd7seg|display[4]       ; pin_out          ;
+; |bcd7seg|display[5]       ; |bcd7seg|display[5]       ; pin_out          ;
+; |bcd7seg|display[6]       ; |bcd7seg|display[6]       ; pin_out          ;
+; |bcd7seg|Equal0~0         ; |bcd7seg|Equal0~0         ; out0             ;
+; |bcd7seg|Equal1~0         ; |bcd7seg|Equal1~0         ; out0             ;
+; |bcd7seg|Equal2~0         ; |bcd7seg|Equal2~0         ; out0             ;
+; |bcd7seg|Equal3~0         ; |bcd7seg|Equal3~0         ; out0             ;
+; |bcd7seg|Equal4~0         ; |bcd7seg|Equal4~0         ; out0             ;
+; |bcd7seg|Equal5~0         ; |bcd7seg|Equal5~0         ; out0             ;
+; |bcd7seg|Equal6~0         ; |bcd7seg|Equal6~0         ; out0             ;
+; |bcd7seg|Equal7~0         ; |bcd7seg|Equal7~0         ; out0             ;
+; |bcd7seg|Equal8~0         ; |bcd7seg|Equal8~0         ; out0             ;
+; |bcd7seg|Equal9~0         ; |bcd7seg|Equal9~0         ; out0             ;
++---------------------------+---------------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 1 during simulation.
++-------------------------------------------------+
+; Missing 1-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
+The following table displays output ports that do not toggle to 0 during simulation.
++-------------------------------------------------+
+; Missing 0-Value Coverage                        ;
++-----------+------------------+------------------+
+; Node Name ; Output Port Name ; Output Port Type ;
++-----------+------------------+------------------+
+
+
++---------------------+
+; Simulator INI Usage ;
++--------+------------+
+; Option ; Usage      ;
++--------+------------+
+
+
++--------------------+
+; Simulator Messages ;
++--------------------+
+Info: *******************************************************************
+Info: Running Quartus II 32-bit Simulator
+    Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
+    Info: Processing started: Wed Aug 15 02:38:44 2018
+Info: Command: quartus_sim --simulation_results_format=VWF bcd7seg -c bcd7seg
+Info (324025): Using vector source file "/home/isaac/projects/calculadora_fpga/bcd7seg/bcd7seg.vwf"
+Info (310003): Option to preserve fewer signal transitions to reduce memory requirements is enabled
+    Info (310004): Simulation has been partitioned into sub-simulations according to the maximum transition count determined by the engine. Transitions from memory will be flushed out to disk at the end of each sub-simulation to reduce memory requirements.
+Info (310002): Simulation partitioned into 1 sub-simulations
+Info (328053): Simulation coverage is     100.00 %
+Info (328052): Number of transitions in simulation is 418
+Info (324045): Vector file bcd7seg.sim.vwf is saved in VWF text format. You can compress it into CVWF format in order to reduce file size. For more details please refer to the Quartus II Help.
+Info: Quartus II 32-bit Simulator was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 265 megabytes
+    Info: Processing ended: Wed Aug 15 02:38:44 2018
+    Info: Elapsed time: 00:00:00
+    Info: Total CPU time (on all processors): 00:00:00
+
+
