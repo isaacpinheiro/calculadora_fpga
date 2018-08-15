@@ -1,0 +1,37 @@
+|bin2bcd
+bin[0] => bcd[0].DATAIN
+bin[1] => LessThan5.IN8
+bin[1] => Add5.IN8
+bin[1] => res~23.DATAA
+bin[2] => LessThan3.IN8
+bin[2] => Add3.IN8
+bin[2] => res~15.DATAA
+bin[3] => LessThan2.IN8
+bin[3] => Add2.IN8
+bin[3] => res~11.DATAA
+bin[4] => LessThan1.IN8
+bin[4] => Add1.IN8
+bin[4] => res~7.DATAA
+bin[5] => LessThan0.IN6
+bin[5] => Add0.IN6
+bin[5] => res~3.DATAA
+bin[6] => LessThan0.IN5
+bin[6] => Add0.IN5
+bin[6] => res~2.DATAA
+bin[7] => LessThan0.IN4
+bin[7] => Add0.IN4
+bin[7] => res~1.DATAA
+bcd[0] <= bin[0].DB_MAX_OUTPUT_PORT_TYPE
+bcd[1] <= res~23.DB_MAX_OUTPUT_PORT_TYPE
+bcd[2] <= res~22.DB_MAX_OUTPUT_PORT_TYPE
+bcd[3] <= res~21.DB_MAX_OUTPUT_PORT_TYPE
+bcd[4] <= res~20.DB_MAX_OUTPUT_PORT_TYPE
+bcd[5] <= res~27.DB_MAX_OUTPUT_PORT_TYPE
+bcd[6] <= res~26.DB_MAX_OUTPUT_PORT_TYPE
+bcd[7] <= res~25.DB_MAX_OUTPUT_PORT_TYPE
+bcd[8] <= res~24.DB_MAX_OUTPUT_PORT_TYPE
+bcd[9] <= res~16.DB_MAX_OUTPUT_PORT_TYPE
+bcd[10] <= <GND>
+bcd[11] <= <GND>
+
+
