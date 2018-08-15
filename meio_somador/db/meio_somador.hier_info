@@ -1,0 +1,9 @@
+|meio_somador
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
