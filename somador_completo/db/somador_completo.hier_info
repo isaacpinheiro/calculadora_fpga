@@ -1,0 +1,26 @@
+|somador_completo
+a => meio_somador:cmp1.a
+b => meio_somador:cmp1.b
+cin => meio_somador:cmp2.a
+s <= meio_somador:cmp2.s
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_completo|meio_somador:cmp1
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_completo|meio_somador:cmp2
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
