@@ -1,5 +1,5 @@
 TimeQuest Timing Analyzer report for bcd7seg
-Wed Aug 15 02:46:44 2018
+Wed Aug 15 16:55:06 2018
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -207,7 +207,7 @@ No dedicated SERDES Receiver circuitry present in device or used in design
 Info: *******************************************************************
 Info: Running Quartus II 32-bit TimeQuest Timing Analyzer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Aug 15 02:46:43 2018
+    Info: Processing started: Wed Aug 15 16:55:05 2018
 Info: Command: quartus_sta bcd7seg -c bcd7seg
 Info: qsta_default_script.tcl version: #1
 Warning (20028): Parallel compilation is not licensed and has been disabled
@@ -239,8 +239,8 @@ Info (332001): The selected device family is not supported by the report_metasta
 Info (332102): Design is not fully constrained for setup requirements
 Info (332102): Design is not fully constrained for hold requirements
 Info: Quartus II 32-bit TimeQuest Timing Analyzer was successful. 0 errors, 5 warnings
-    Info: Peak virtual memory: 307 megabytes
-    Info: Processing ended: Wed Aug 15 02:46:44 2018
+    Info: Peak virtual memory: 292 megabytes
+    Info: Processing ended: Wed Aug 15 16:55:06 2018
     Info: Elapsed time: 00:00:01
     Info: Total CPU time (on all processors): 00:00:01
 
