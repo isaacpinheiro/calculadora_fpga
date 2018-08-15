@@ -1,5 +1,5 @@
 Analysis & Synthesis report for bcd7seg
-Wed Aug 15 02:36:04 2018
+Wed Aug 15 02:46:34 2018
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -43,7 +43,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Wed Aug 15 02:36:04 2018           ;
+; Analysis & Synthesis Status        ; Successful - Wed Aug 15 02:46:34 2018           ;
 ; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; bcd7seg                                         ;
 ; Top-level Entity Name              ; bcd7seg                                         ;
@@ -260,7 +260,7 @@ Note: All latches listed above may not be present at the end of synthesis due to
 Info: *******************************************************************
 Info: Running Quartus II 32-bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Wed Aug 15 02:36:02 2018
+    Info: Processing started: Wed Aug 15 02:46:32 2018
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off bcd7seg -c bcd7seg
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 2 design units, including 1 entities, in source file bcd7seg.vhd
@@ -281,8 +281,8 @@ Info (21057): Implemented 32 device resources after synthesis - the final resour
     Info (21059): Implemented 7 output pins
     Info (21061): Implemented 21 logic cells
 Info: Quartus II 32-bit Analysis & Synthesis was successful. 0 errors, 1 warning
-    Info: Peak virtual memory: 357 megabytes
-    Info: Processing ended: Wed Aug 15 02:36:04 2018
+    Info: Peak virtual memory: 361 megabytes
+    Info: Processing ended: Wed Aug 15 02:46:34 2018
     Info: Elapsed time: 00:00:02
     Info: Total CPU time (on all processors): 00:00:02
 

@@ -1,5 +1,6 @@
 vendor_name = ModelSim
 source_file = 1, /home/isaac/projects/calculadora_fpga/bcd7seg/bcd7seg.vhd
+source_file = 1, /home/isaac/projects/calculadora_fpga/bcd7seg/bcd7seg.vwf
 source_file = 1, /home/isaac/projects/calculadora_fpga/bcd7seg/db/bcd7seg.cbx.xml
 source_file = 1, /home/isaac/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
 source_file = 1, /home/isaac/altera/13.0sp1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd

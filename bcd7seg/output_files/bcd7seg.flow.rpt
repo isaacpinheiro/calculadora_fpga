@@ -1,5 +1,5 @@
 Flow report for bcd7seg
-Wed Aug 15 02:36:18 2018
+Wed Aug 15 02:46:47 2018
 Quartus II 32-bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -40,7 +40,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Flow Summary                                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Flow Status                        ; Successful - Wed Aug 15 02:36:18 2018           ;
+; Flow Status                        ; Successful - Wed Aug 15 02:46:47 2018           ;
 ; Quartus II 32-bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; bcd7seg                                         ;
 ; Top-level Entity Name              ; bcd7seg                                         ;
@@ -64,7 +64,7 @@ applicable agreement for further details.
 +-------------------+---------------------+
 ; Option            ; Setting             ;
 +-------------------+---------------------+
-; Start date & time ; 08/15/2018 02:36:02 ;
+; Start date & time ; 08/15/2018 02:46:33 ;
 ; Main task         ; Compilation         ;
 ; Revision Name     ; bcd7seg             ;
 +-------------------+---------------------+
@@ -75,7 +75,7 @@ applicable agreement for further details.
 +-------------------------------------+------------------------+---------------+-------------+----------------+
 ; Assignment Name                     ; Value                  ; Default Value ; Entity Name ; Section Id     ;
 +-------------------------------------+------------------------+---------------+-------------+----------------+
-; COMPILER_SIGNATURE_ID               ; 0.153431136216311      ; --            ; --          ; --             ;
+; COMPILER_SIGNATURE_ID               ; 0.153431199316476      ; --            ; --          ; --             ;
 ; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                   ; --            ; --          ; eda_simulation ;
 ; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL) ; <None>        ; --          ; --             ;
 ; PARTITION_COLOR                     ; 16764057               ; --            ; --          ; Top            ;
@@ -93,8 +93,8 @@ applicable agreement for further details.
 ; Analysis & Synthesis      ; 00:00:02     ; 1.0                     ; 355 MB              ; 00:00:02                           ;
 ; Fitter                    ; 00:00:03     ; 1.0                     ; 395 MB              ; 00:00:03                           ;
 ; Assembler                 ; 00:00:01     ; 1.0                     ; 325 MB              ; 00:00:01                           ;
-; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 296 MB              ; 00:00:01                           ;
-; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 308 MB              ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:01     ; 1.0                     ; 307 MB              ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 297 MB              ; 00:00:01                           ;
 ; Total                     ; 00:00:08     ; --                      ; --                  ; 00:00:08                           ;
 +---------------------------+--------------+-------------------------+---------------------+------------------------------------+
 
