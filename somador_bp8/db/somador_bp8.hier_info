@@ -1,0 +1,237 @@
+|somador_bp8
+a[0] => somador_completo:cmp1.a
+a[1] => somador_completo:cmp2.a
+a[2] => somador_completo:cmp3.a
+a[3] => somador_completo:cmp4.a
+a[4] => somador_completo:cmp5.a
+a[5] => somador_completo:cmp6.a
+a[6] => somador_completo:cmp7.a
+a[7] => somador_completo:cmp8.a
+b[0] => somador_completo:cmp1.b
+b[1] => somador_completo:cmp2.b
+b[2] => somador_completo:cmp3.b
+b[3] => somador_completo:cmp4.b
+b[4] => somador_completo:cmp5.b
+b[5] => somador_completo:cmp6.b
+b[6] => somador_completo:cmp7.b
+b[7] => somador_completo:cmp8.b
+cin => somador_completo:cmp1.cin
+s[0] <= somador_completo:cmp1.s
+s[1] <= somador_completo:cmp2.s
+s[2] <= somador_completo:cmp3.s
+s[3] <= somador_completo:cmp4.s
+s[4] <= somador_completo:cmp5.s
+s[5] <= somador_completo:cmp6.s
+s[6] <= somador_completo:cmp7.s
+s[7] <= somador_completo:cmp8.s
+cout <= somador_completo:cmp8.cout
+
+
+|somador_bp8|somador_completo:cmp1
+a => meio_somador:cmp1.a
+b => meio_somador:cmp1.b
+cin => meio_somador:cmp2.a
+s <= meio_somador:cmp2.s
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp1|meio_somador:cmp1
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp1|meio_somador:cmp2
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp2
+a => meio_somador:cmp1.a
+b => meio_somador:cmp1.b
+cin => meio_somador:cmp2.a
+s <= meio_somador:cmp2.s
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp2|meio_somador:cmp1
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp2|meio_somador:cmp2
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp3
+a => meio_somador:cmp1.a
+b => meio_somador:cmp1.b
+cin => meio_somador:cmp2.a
+s <= meio_somador:cmp2.s
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp3|meio_somador:cmp1
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp3|meio_somador:cmp2
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp4
+a => meio_somador:cmp1.a
+b => meio_somador:cmp1.b
+cin => meio_somador:cmp2.a
+s <= meio_somador:cmp2.s
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp4|meio_somador:cmp1
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp4|meio_somador:cmp2
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp5
+a => meio_somador:cmp1.a
+b => meio_somador:cmp1.b
+cin => meio_somador:cmp2.a
+s <= meio_somador:cmp2.s
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp5|meio_somador:cmp1
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp5|meio_somador:cmp2
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp6
+a => meio_somador:cmp1.a
+b => meio_somador:cmp1.b
+cin => meio_somador:cmp2.a
+s <= meio_somador:cmp2.s
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp6|meio_somador:cmp1
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp6|meio_somador:cmp2
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp7
+a => meio_somador:cmp1.a
+b => meio_somador:cmp1.b
+cin => meio_somador:cmp2.a
+s <= meio_somador:cmp2.s
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp7|meio_somador:cmp1
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp7|meio_somador:cmp2
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp8
+a => meio_somador:cmp1.a
+b => meio_somador:cmp1.b
+cin => meio_somador:cmp2.a
+s <= meio_somador:cmp2.s
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp8|meio_somador:cmp1
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|somador_bp8|somador_completo:cmp8|meio_somador:cmp2
+a => s~0.IN0
+a => cout~0.IN0
+b => s~0.IN1
+b => cout~0.IN1
+s <= s~0.DB_MAX_OUTPUT_PORT_TYPE
+cout <= cout~0.DB_MAX_OUTPUT_PORT_TYPE
+
+
